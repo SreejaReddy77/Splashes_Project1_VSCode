@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Splashes Project 1 | Home -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Splashes swimming lessons help children become confident, safe and happy swimmers.">
+  <meta name="keywords" content="children swimming lessons, swim classes, Splashes">
+  <title>Splashes | Swim With Confidence</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand brand" href="index.html">💦 SPLASHES</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ml-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="lessons.html">Lessons</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ml-lg-2"><button class="btn btn-splash" data-toggle="modal" data-target="#registerModal">Join Us</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center min-vh-75">
+      <div class="col-lg-6 py-5">
+        <span class="eyebrow">MAKE A SPLASH</span>
+        <h1>Little swimmers.<br><span>Big confidence.</span></h1>
+        <p class="lead">Fun, friendly swimming lessons designed to help every child feel safe, strong and excited in the water.</p>
+        <a href="lessons.html" class="btn btn-splash btn-lg mr-2">Explore Lessons</a>
+        <button class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#registerModal">Register</button>
+        <div class="trust-row mt-4"><span>✓ Small groups</span><span>✓ Qualified instructors</span><span>✓ All skill levels</span></div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-card">
+          <img src="images/swimming%20lessons.jpg" alt="Make a Splash" class="img-fluid mb-3">
+          <div class="hero-note"><strong>Ready, set, splash!</strong><br>Learning to swim should feel amazing.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="section-title text-center">
+      <span class="eyebrow">WHY SPLASHES?</span>
+      <h2>A better start in the water.</h2>
+      <p>We combine safety, skill-building and plenty of smiles.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4"><div class="feature-card"><div class="icon">🛟</div><h4>Safety First</h4><p>Age-appropriate instruction builds water awareness and practical swimming skills.</p></div></div>
+      <div class="col-md-4 mb-4"><div class="feature-card"><div class="icon">🌈</div><h4>Fun Learning</h4><p>Games and playful challenges keep children engaged while they learn.</p></div></div>
+      <div class="col-md-4 mb-4"><div class="feature-card"><div class="icon">🏆</div><h4>Real Progress</h4><p>Clear skill milestones help families see confidence grow lesson by lesson.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container text-center">
+    <span class="eyebrow">YOUR CHILD'S NEXT ADVENTURE</span>
+    <h2>Let's make waves together.</h2>
+    <p>Find the right class and start your swimmer's journey.</p>
+    <a href="schedule.html" class="btn btn-dark btn-lg">View Class Schedule</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <div>
+      <strong>💦 SPLASHES</strong>
+      <p class="mb-0">Swim. Smile. Shine.</p>
+    </div>
+    <div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="#" data-toggle="modal" data-target="#registerModal">Register</a></div>
+  </div>
+</footer>
+
+<div class="modal fade" id="registerModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered"><div class="modal-content register-modal">
+    <div class="modal-header border-0"><h4>Make a Splash!</h4><button class="close" data-dismiss="modal">&times;</button></div>
+    <div class="modal-body"><p>Tell us a little about your swimmer and we'll help find the right class.</p>
+      <form class="register-form">
+        <input class="form-control mb-3" placeholder="Parent / Guardian Name" required>
+        <input class="form-control mb-3" type="email" placeholder="Email Address" required>
+        <select class="form-control mb-3"><option>Swimmer's age</option><option>3–4</option><option>5–7</option><option>8–10</option><option>11–13</option></select>
+        <button class="btn btn-splash btn-block" type="submit">Start Registration</button>
+      </form>
+    </div>
+  </div></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

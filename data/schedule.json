@@ -1,0 +1,9 @@
+[
+  {"day":"Monday","time":"4:00 PM","program":"Little Minnows","age":"3–4","spots":4},
+  {"day":"Monday","time":"5:00 PM","program":"Confident Kids","age":"5–7","spots":3},
+  {"day":"Tuesday","time":"4:30 PM","program":"Strong Swimmers","age":"8–10","spots":5},
+  {"day":"Wednesday","time":"5:00 PM","program":"Confident Kids","age":"5–7","spots":2},
+  {"day":"Thursday","time":"4:30 PM","program":"Next Level","age":"11–13","spots":6},
+  {"day":"Saturday","time":"10:00 AM","program":"Little Minnows","age":"3–4","spots":4},
+  {"day":"Saturday","time":"11:00 AM","program":"Strong Swimmers","age":"8–10","spots":3}
+]
